@@ -1,0 +1,146 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body {
+    margin: 0;
+    font-family: 'Langar', cursive;
+}
+
+h2 {
+    color: gray;
+}
+
+h4 {
+    font-size: 23px;
+    color: gray;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.49)
+}
+
+.header-wrapper ul li, img {
+    cursor: pointer;
+}
+
+div ul {
+    display: flex;
+}
+
+div ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header-wrapper-btn {
+    background-color: #975BC1;
+    border-radius: 200px;
+    border: none;
+    color: #FEF6F8;
+    padding: 8px 15px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+.diploms-and-certificates {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-inside {
+    width: 50%;
+    color: black;
+}
+
+.third-section {
+    background-color: #14162B;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-two {
+    border: none;
+    position: relative;
+    top: 45px;
+    right: 50px;
+}
+
+.text-two {
+    width: 55%;
+}
+
+.career-center {
+    display: flex;
+    margin: 50px 70px;
+}
+
+.career-center-button {
+    border: 2px solid #A55DC6;
+    border-radius: 15px;
+    background-color: white;
+    color: #A55DC6;
+    position: relative;
+    top: 60px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.text-inside-two {
+    padding-left: 45px;
+}
+
+.footer-items {
+    display: flex;
+    background-color: #2C2C3A;
+    justify-content: space-around;
+}
+
+.ul-items ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ul-items {
+    display: flex;
+}
+
+.ul-items ul {
+    flex-direction: column;
+}
+
+span {
+    color: #9B5DC6;
+}
+
+.footer-icons {
+    color: white;
+}
+
+.footer-icons ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-icons ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.footer-text {
+    padding-left: 15px;
+}
