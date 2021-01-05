@@ -6,29 +6,138 @@
 
 @media all and (min-width:428px) and (max-width: 926px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
     .drop-down-menu-button {
         display: block;
     }
-    .header-wrapper{
+    .drop-down-menu-button i {
+        font-size: 80px;
+    }
+    .header-wrapper {
         display: flex;
         justify-content: space-between;
         width: 926px;
         height: 130px;
     }
-     .header-wrapper ul {
+    .header-wrapper ul {
         display: none;
     }
-    .header-wrapper div img{
+    .header-wrapper div img {
         padding-left: 30px;
-        width: 250px;
+        width: 300px;
     }
-    .responsive-menu{
+    .responsive-menu {
         padding-right: 50px;
     }
     .responsive-menu:hover ul {
         display: block;
         position: absolute;
-        top: 50px;
         background-color: gray;
+        border-radius: 20px;
+        font-size: 40px;
+        text-align: center;
+        padding: 5px 50px;
+        left: 429px;
+        bottom: 25px;
+    }
+    .header-wrapper-btn {
+        width: 300px;
+        height: 60px;
+        font-size: 30px;
+    }
+}
+
+/*Main section media query*/
+
+@media all and (min-width:428px) and (max-width: 926px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+    .diploms-and-certificates {
+        width: 926px;
+        display: block;
+    }
+    .text-inside {
+        text-align: center;
+        width: 926px;
+        font-size: 35px;
+    }
+    .images-inside {
+        text-align: center;
+    }
+    .images-inside img {
+        width: 750px;
+    }
+    .third-section {
+        width: 926px;
+        display: block;
+        text-align: center;
+    }
+    .text-two {
+        text-align: center;
+        width: 926px;
+        font-size: 32px;
+    }
+    .image-two {
+        position: static;
+    }
+    .image-two img {
+        width: 515px;
+    }
+    .career-center {
+        margin: 0;
+        flex-direction: column-reverse;
+        width: 926px;
+        text-align: center;
+    }
+    .text-inside-two {
+        padding: 0;
+        font-size: 30px;
+    }
+    .text-inside-two h4 {
+        font-size: 40px;
+    }
+    .img-inside img {
+        width: 100%;
+    }
+    .career-center button {
+        position: static;
+        width: 350px;
+        height: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+/*Footer section media query*/
+
+@media all and (min-width:428px) and (max-width: 926px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+    footer {
+        width: 926px;
+    }
+    .footer-items{
+        display: block;
+    }
+    .ul-items{
+        justify-content: space-between;
+    }
+    .ul-items div ul{
+        font-size: 25px;
+        padding: 0 15px;
+        text-align: center;   
+    }
+    .footer-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-icons ul li{
+        font-size: 65px;
+        margin: 0 15px;
+    }
+    .footer-text{
+        display: flex;
+        font-size: 30px;
     }
 }
