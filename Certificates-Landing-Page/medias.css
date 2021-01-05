@@ -4,19 +4,31 @@
 
 /*Header section media query*/
 
-@media all and (min-width:428px) and (max-width: 926px){
+@media all and (min-width:428px) and (max-width: 926px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
-    .drop-down-menu-button{
+    .drop-down-menu-button {
         display: block;
     }
-    .header-wrapper ul{
+    .header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 926px;
+        height: 130px;
+    }
+     .header-wrapper ul {
         display: none;
     }
-    .responsive-menu:hover ul{
+    .header-wrapper div img{
+        padding-left: 30px;
+        width: 250px;
+    }
+    .responsive-menu{
+        padding-right: 50px;
+    }
+    .responsive-menu:hover ul {
         display: block;
         position: absolute;
         top: 50px;
         background-color: gray;
-        
     }
 }
