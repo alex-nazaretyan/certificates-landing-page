@@ -15,6 +15,9 @@ h4 {
     margin: 0;
     margin-top: 10px;
 }
+.drop-down-menu-button{
+    display: none;
+}
 
 .header-wrapper {
     display: flex;
